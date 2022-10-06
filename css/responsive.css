@@ -183,8 +183,8 @@
     }
 
     .navbar-ul.active {
-        height: 240px;
-        padding: 2.5rem 3rem;
+        height: 250px;
+        padding: 1.5rem 0;
     }
 
     .navbar-ul.active .header.sticky {
@@ -194,7 +194,13 @@
 
     .navbar-li {
         display: block;
-        padding: 1rem 0;
+    }
+    .navbar-li a{
+        display: block;
+        padding: 1rem;
+    }
+    .navbar-li a:hover{
+        background-image: var(--light-gradient);
     }
 
     /* --------Hero-Section---------- */
