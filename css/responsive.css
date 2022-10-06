@@ -153,10 +153,6 @@
         transition-delay: 0s !important;
     }
 
-    html {
-        font-size: 45%;
-    }
-
     section {
         padding: 8rem 6% 2rem;
     }
@@ -203,7 +199,7 @@
 
     /* --------Hero-Section---------- */
     .hero-content-1 {
-        margin-top: 15rem;
+        margin-top: 12rem;
     }
 
     /* --------Services-Section---------- */
@@ -216,15 +212,15 @@
     }
 
     .services-content i {
-        font-size: 15rem;
+        font-size: 12rem;
     }
 
     .services-content h3 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .services-content p {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     /* --------Portfolio-Content----- */
@@ -264,7 +260,9 @@
 @media (max-width:450px) {
     h1 {
         text-align: center;
+        font-size: 5rem;
     }
+
 
     /* ------------Services-Section---------- */
     .services-content {
@@ -295,7 +293,7 @@
         padding-top: 0;
     }
     .contact-icons a{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .contact-icons i{
         font-size: 2rem;
