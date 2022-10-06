@@ -1,0 +1,313 @@
+/* ------------------Max-Width:3800px------------- */
+@media (max-width:3800px) {
+
+    html {
+        font-size: 100%;
+    }
+}
+/* ------------------Max-Width:3000px------------- */
+@media (max-width:3000px) {
+
+    html {
+        font-size: 85%;
+    }
+}
+/* ------------------Max-Width:2500px------------- */
+@media (max-width:2500px) {
+
+    html {
+        font-size: 75%;
+    }
+}
+/* ------------------Max-Width:2000px------------- */
+@media (max-width:2000px) {
+
+    html {
+        font-size: 62.5%;
+    }
+}
+
+
+/* ------------------Max-Width:1100px------------- */
+
+@media (max-width:1110px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    /* --------Header--------- */
+    .logo {
+        width: 12rem;
+    }
+
+    .navbar-ul {
+        gap: 2.5rem;
+    }
+
+    /* ---------Hero-Section-------- */
+    #hero {
+        padding: 0 8%;
+    }
+
+    .hero-container {
+        gap: 5rem;
+    }
+
+    /* --------Services-Section------- */
+    .services-content {
+        gap: 3rem;
+    }
+
+    /* ---------Portfolio-Section------- */
+    #portfolio {
+        padding: 8rem 8% 2rem;
+    }
+
+    .portfolio-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* --------Contact-Section--------- */
+
+}
+
+/* ------------------------Max-Width:840px---------------------- */
+
+@media (max-width:840px) {
+    html {
+        font-size: 50%;
+    }
+
+    h2.active::after {
+        width: 60%;
+    }
+
+    /* --------Hero_Section-------- */
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 8rem;
+    }
+
+    .hero-content-1 {
+        align-items: center;
+    }
+
+    /* --------About-Section------ */
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-content-1 {
+        grid-row: 2;
+        text-align: center;
+    }
+
+    .about-content-1 img {
+        width: 70%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+
+    /* ---------Services-Contaier------- */
+    .services-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+
+    /* ---------Portfolio-Section-------- */
+    .p-container {
+        height: 190px;
+    }
+
+    /* --------Contact-Section------- */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+    form{
+        padding: 3rem 0 ;
+    }
+
+    .contact-content-1 {
+        grid-row: 2;
+        text-align: center;
+    }
+
+    .contact-content-1 img {
+        width: 70%;
+    }
+    .contact-icons{
+        margin: 0;
+    }
+}
+
+/* ------------------------Max-Width:680px--------------------- */
+
+@media (max-width:680px) {
+
+    [data-aos-delay] {
+        transition-delay: 0s !important;
+    }
+
+    html {
+        font-size: 45%;
+    }
+
+    section {
+        padding: 8rem 6% 2rem;
+    }
+
+    /* ------------Heaer------------ */
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 2.5rem;
+        right: 6%;
+        transition: 300ms linear;
+    }
+
+    .header.sticky .menu-btn {
+        top: 1.8rem;
+
+    }
+
+    .header {
+        display: block;
+        overflow: hidden;
+    }
+
+    .navbar-ul {
+        display: block;
+        height: 0;
+        transition: 300ms ease;
+    }
+
+    .navbar-ul.active {
+        height: 240px;
+        padding: 2.5rem 3rem;
+    }
+
+    .navbar-ul.active .header.sticky {
+        box-shadow: 0 4px 8px 0 #31e0f76b;
+
+    }
+
+    .navbar-li {
+        display: block;
+        padding: 1rem 0;
+    }
+
+    /* --------Hero-Section---------- */
+    .hero-content-1 {
+        margin-top: 15rem;
+    }
+
+    /* --------Services-Section---------- */
+    .services-content {
+        grid-template-columns: 1fr;
+    }
+
+    .service {
+        padding: 5rem 4rem 3rem;
+    }
+
+    .services-content i {
+        font-size: 15rem;
+    }
+
+    .services-content h3 {
+        font-size: 3.5rem;
+    }
+
+    .services-content p {
+        font-size: 2.5rem;
+    }
+
+    /* --------Portfolio-Content----- */
+    .portfolio-content {
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+
+    .p-container {
+        height: 300px;
+    }
+
+    .p-content h3 {
+        font-size: 4.8rem;
+        margin-top: 1rem;
+    }
+
+    .p-content p {
+        font-size: 4rem;
+    }
+
+    .p-content a {
+        font-size: 5rem;
+        padding: 0 2rem;
+        margin-top: 3rem;
+    }
+
+    /* --------Freelancing-Section----------- */
+    #freelancing {
+        padding: 5rem 0%;
+    }
+
+}
+
+/* ------------Max-Width:450px--------- */
+
+@media (max-width:450px) {
+    h1 {
+        text-align: center;
+    }
+
+    /* ------------Services-Section---------- */
+    .services-content {
+        padding: 7rem 2rem;
+    }
+
+    /* --------Portfolio-Section------ */
+    .p-container{
+        height: 190px;
+    }
+    .p-content h3 {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .p-content p {
+        font-size: 2rem;
+    }
+
+    .p-content a {
+        font-size: 3.2rem;
+        padding: 0 1rem;
+        margin-top: 3rem;
+    }
+
+    /* -------COntact-Section------- */
+    .contact-container{
+        padding-top: 0;
+    }
+    .contact-icons a{
+        font-size: 1rem;
+    }
+    .contact-icons i{
+        font-size: 2rem;
+    }
+    /* -----------Footer-Section----------- */
+    .footer-container{
+        flex-direction: column;
+    }
+    .links-services{
+        justify-content: space-between;
+    }
+    .footer-sub-content{
+        margin-top: 2rem;
+    }
+}
