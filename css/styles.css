@@ -528,17 +528,17 @@ section {
 }
 
 .p-container-1 {
-    background: url("../images/travel-website.jpg") no-repeat;
+    background: url("../images/travel-website.webp") no-repeat;
     background-size: cover;
 }
 
 .p-container-2 {
-    background: url("../images/restaurent-website.jpg") no-repeat;
+    background: url("../images/restaurent-website.webp") no-repeat;
     background-size: cover;
 }
 
 .p-container-3 {
-    background: url("../images/analog-clock.jpg") no-repeat;
+    background: url("../images/analog-clock.webp") no-repeat;
     background-size: cover;
 }
 
