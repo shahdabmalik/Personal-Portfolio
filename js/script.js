@@ -14,8 +14,8 @@ menuBtn.addEventListener('click', () => {
     navbarUl.classList.toggle('active');
 
 })
-navbarli.forEach(li =>{
-    li.addEventListener('click', ()=>{
+navbarli.forEach(li => {
+    li.addEventListener('click', () => {
         navbarUl.classList.remove('active')
         menuBtnIcon.classList.remove('fa-xmark')
     })
@@ -81,15 +81,26 @@ document.addEventListener('scroll', statsupdate)
 
 // ---------------Skills-Stats-End--------------------
 
+// ----------------Portfolio-Swiper-Slider-----------------
+var swiper = new Swiper(".portfolio-slider", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        0: { slidesPerView: 1 },
+        1100: { slidesPerView: 2 }
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    }
+});
 
 
-
-
-
-
-
-
-// -----------------Swiper-Slider-----------------
+// -----------------Testimonial-Swiper-Slider-----------------
 var swiper = new Swiper(".testimonial-container", {
     slidesPerView: 2,
     spaceBetween: 30,
@@ -99,12 +110,12 @@ var swiper = new Swiper(".testimonial-container", {
     },
     breakpoints: {
         0: { slidesPerView: 1 },
-        1100:{slidesPerView:2}
+        1100: { slidesPerView: 2 }
     },
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
-      }
+    }
 });
 
 // -----------------AOS-Initiate-------------
@@ -113,5 +124,5 @@ AOS.init({
     duration: 1000,
     once: true,
     mirror: false,
-    easeing:"ease-in-out"
+    easeing: "ease-in-out"
 });

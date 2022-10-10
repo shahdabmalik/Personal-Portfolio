@@ -29,7 +29,7 @@
 <body>
     <!-- -----------Header------------- -->
     <header class="header">
-        <div class="logo"><a href="index.html"><img src="images/logo-transparent-black.png" alt=""></a></div>
+        <div class="logo"><a href="index.html"><img src="images/logo.webp" alt=""></a></div>
         <nav class="navbar">
             <ul class="navbar-ul">
                 <li class="navbar-li"><a href="#hero" class="navbar-link active">Home</a></li>
@@ -56,8 +56,15 @@
                                 class="fa-solid fa-arrow-right"></i></a></button>
                 </div>
                 <div class="hero-content-2" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="images/hero.png" alt="Profile Image" class="hero-img">
+                    <img src="images/hero.webp" alt="Profile Image" class="hero-img">
                 </div>
+            </div>
+            <div class="hero-icons">
+                <a target="_blank" href="https://www.instagram.com/shahdabmalik_11/"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/shahdabmalik"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://wa.me/+918077688337"><i class="fa-brands fa-whatsapp"></i></a>
+
             </div>
         </section>
         <!-- ------------Hero-Section-Ends------ -->
@@ -66,7 +73,7 @@
         <section id="about">
             <div class="about-container">
                 <div class="about-content-1" data-aos="zoom-out" data-aos-delay="300">
-                    <img src="images/about.jpg" alt="About Image" class="about-img">
+                    <img src="images/about.webp" alt="About Image" class="about-img">
                 </div>
                 <div class="about-content-2">
                     <h2 class="about-heading" data-aos="fade-up">About Me!</h2>
@@ -168,47 +175,51 @@
                     proper
                     functionality.</p>
             </div>
-            <div class="portfolio-content" data-aos="fade-up" data-aos-delay="200">
-                <div class="p-container p-container-1">
-                    <div class="p-content">
-                        <h3>Travel Agency Website</h3>
-                        <p>HTML/CSS/JAVASCRIPT/PHP</p>
-                        <div class="p-icons">
-                            <a href="https://github.com/shahdabmalik/carefree-cruises.git" target="_blank"
-                                class="p-link"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://shahdabmalik.github.io/carefree-cruises/" target="_blank" class="p-link"><i
-                                    class="fa-solid fa-up-right-from-square"></i></a>
+            <div class="portfolio-slider swiper">
+                <div class="portfolio-content swiper-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-container p-container-1 swiper-slide">
+                        <div class="p-content">
+                            <h3>Travel Agency Website</h3>
+                            <div class="p-icons">
+                                <a href="https://github.com/shahdabmalik/carefree-cruises.git" target="_blank"
+                                    class="p-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://shahdabmalik.github.io/carefree-cruises/" target="_blank"
+                                    class="p-link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
                         </div>
+                        <img class="portfolio-img" src="images/travel-website.webp" alt="Travel Website">
+                    </div>
+
+
+                    <div class="p-container p-container-2 swiper-slide">
+                        <div class="p-content">
+                            <h3>Restaurent Website</h3>
+                            <div class="p-icons">
+                                <a href="https://github.com/shahdabmalik/lettuce-eat.git" target="_blank"
+                                    class="p-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://shahdabmalik.github.io/lettuce-eat/" target="_blank" class="p-link"><i
+                                        class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <img class="portfolio-img" src="images/restaurent-website.webp" alt="Travel Website">
+
+                    </div>
+
+
+                    <div class="p-container p-container-3 swiper-slide">
+                        <div class="p-content">
+                            <h3>Analog Clock</h3>
+                            <div class="p-icons">
+                                <a href="https://github.com/shahdabmalik/analog-clock.git" target="_blank"
+                                    class="p-link"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://shahdabmalik.github.io/analog-clock/" target="_blank" class="p-link"><i
+                                        class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <img class="portfolio-img" src="images/analog-clock.webp" alt="Travel Website">
                     </div>
                 </div>
-
-
-                <div class="p-container p-container-2">
-                    <div class="p-content">
-                        <h3>Restaurent Website</h3>
-                        <p>HTML/CSS/JAVASCRIPT</p>
-                        <div class="p-icons">
-                            <a href="https://github.com/shahdabmalik/lettuce-eat.git" target="_blank" class="p-link"><i
-                                    class="fa-brands fa-github"></i></a>
-                            <a href="https://shahdabmalik.github.io/lettuce-eat/" target="_blank" class="p-link"><i
-                                    class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="p-container p-container-3">
-                    <div class="p-content">
-                        <h3>Analog Clock</h3>
-                        <p>HTML/CSS/JAVASCRIPT</p>
-                        <div class="p-icons">
-                            <a href="https://github.com/shahdabmalik/analog-clock.git" target="_blank" class="p-link"><i
-                                    class="fa-brands fa-github"></i></a>
-                            <a href="https://shahdabmalik.github.io/analog-clock/" target="_blank" class="p-link"><i
-                                    class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <!-- -------------Portfolio_Section-Ends----------------- -->
@@ -281,7 +292,7 @@
             <p data-aos="fade-up" data-aos-delay="100">Send a message and lets build something beautiful together...</p>
             <div class="contact-container">
                 <div class="contact-content-1">
-                    <img src="images/contact.png" alt="" data-aos="zoom-out">
+                    <img src="images/contact.webp" alt="" data-aos="zoom-out">
                 </div>
                 <div class="contact-content-2" data-aos="fade-left" data-aos-delay="100">
                     <form action="#">
