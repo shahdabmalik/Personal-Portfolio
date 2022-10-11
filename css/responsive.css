@@ -5,6 +5,7 @@
         font-size: 100%;
     }
 }
+
 /* ------------------Max-Width:3000px------------- */
 @media (max-width:3000px) {
 
@@ -12,6 +13,7 @@
         font-size: 85%;
     }
 }
+
 /* ------------------Max-Width:2500px------------- */
 @media (max-width:2500px) {
 
@@ -19,6 +21,7 @@
         font-size: 75%;
     }
 }
+
 /* ------------------Max-Width:2000px------------- */
 @media (max-width:2000px) {
 
@@ -126,8 +129,9 @@
         grid-template-columns: 1fr;
         gap: 5rem;
     }
-    form{
-        padding: 3rem 0 ;
+
+    form {
+        padding: 3rem 0 0;
     }
 
     .contact-content-1 {
@@ -138,8 +142,14 @@
     .contact-content-1 img {
         width: 70%;
     }
-    .contact-icons{
+
+    .contact-icons {
         margin: 0;
+    }
+
+    /* -----------Thank-You-Page--------------------- */
+    .thankyou-text {
+        align-self: flex-start;
     }
 }
 
@@ -193,18 +203,18 @@
     .navbar-li {
         display: block;
     }
-    .navbar-li a{
+
+    .navbar-li a {
         display: block;
         padding: 1rem;
     }
-    .navbar-li a:hover{
+
+    .navbar-li a:hover {
         background-image: var(--light-gradient);
     }
 
     /* --------Hero-Section---------- */
-    .hero-content-1 {
-        /* margin-top: 8rem; */
-    }
+
 
     /* --------Services-Section---------- */
     .services-content {
@@ -246,7 +256,7 @@
     }
 
     /* ------------Hero-Section--------- */
-    .hero-icons{
+    .hero-icons {
         top: 87%;
         left: 50%;
         flex-direction: row;
@@ -257,30 +267,36 @@
 
     /* ------------Services-Section---------- */
     .services-content {
-        padding: 7rem 2rem;
+        padding: 0 2rem;
+        gap: 1rem;
     }
 
     /* --------Portfolio-Section------ */
 
 
     /* -------Contact-Section------- */
-    .contact-container{
+    .contact-container {
         padding-top: 0;
     }
-    .contact-icons a{
+
+    .contact-icons a {
         font-size: 1.2rem;
     }
-    .contact-icons i{
+
+    .contact-icons i {
         font-size: 2rem;
     }
+
     /* -----------Footer-Section----------- */
-    .footer-container{
+    .footer-container {
         flex-direction: column;
     }
-    .links-services{
+
+    .links-services {
         justify-content: space-between;
     }
-    .footer-sub-content{
+
+    .footer-sub-content {
         margin-top: 2rem;
     }
 }
