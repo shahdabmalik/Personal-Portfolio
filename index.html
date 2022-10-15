@@ -73,7 +73,10 @@
         <section id="about">
             <div class="about-container">
                 <div class="about-content-1" data-aos="zoom-out" data-aos-delay="300">
-                    <img src="images/about.webp" alt="About Image" class="about-img">
+                    <lottie-player class="about-lottie"
+                        src="https://assets5.lottiefiles.com/packages/lf20_iqhd0uv0.json" background="transparent"
+                        speed="1" loop autoplay>
+                    </lottie-player>
                 </div>
                 <div class="about-content-2">
                     <h2 class="about-heading" data-aos="fade-up">About Me!</h2>
@@ -292,12 +295,14 @@
             <p data-aos="fade-up" data-aos-delay="100">Send a message and lets build something beautiful together...</p>
             <div class="contact-container">
                 <div class="contact-content-1">
-                    <img src="images/contact.webp" alt="" data-aos="zoom-out">
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_5wljrtm0.json"
+                        background="transparent" speed="1" loop autoplay></lottie-player>
                 </div>
                 <div class="contact-content-2" data-aos="fade-left" data-aos-delay="100">
                     <form action="https://formsubmit.co/shahdab888@gmail.com" method="POST">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="https://shahdabmalik.github.io/portfolio/thankyou.html">
+                        <input type="hidden" name="_next"
+                            value="https://shahdabmalik.github.io/portfolio/thankyou.html">
                         <div class="name-email">
                             <label for="name"></label>
                             <input type="text" name="name" placeholder="Name" class="form-name" id="name">
@@ -388,6 +393,9 @@
 
     <!-- -----Link-AOS-JS--- -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ------Lottie-Animation----- -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <!-- ----------Custom-JS----------- -->
     <script src="js/script.js"></script>
