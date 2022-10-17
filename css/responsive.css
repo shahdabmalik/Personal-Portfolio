@@ -54,7 +54,21 @@
     }
 
     .hero-container {
-        gap: 5rem;
+        gap: 7rem;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content-1 {
+        align-items: center;
+    }
+
+    /* -------About-Section--------- */
+    .about-container{
+        grid-template-columns: 1fr;
+
+    }
+    .about-content-1{
+        grid-row: 2;
     }
 
     /* --------Services-Section------- */
@@ -72,6 +86,12 @@
     }
 
     /* --------Contact-Section--------- */
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+    .contact-content-1{
+        grid-row: 2;
+    }
 
 }
 
