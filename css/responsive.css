@@ -63,11 +63,12 @@
     }
 
     /* -------About-Section--------- */
-    .about-container{
+    .about-container {
         grid-template-columns: 1fr;
 
     }
-    .about-content-1{
+
+    .about-content-1 {
         grid-row: 2;
     }
 
@@ -86,10 +87,11 @@
     }
 
     /* --------Contact-Section--------- */
-    .contact-container{
+    .contact-container {
         grid-template-columns: 1fr;
     }
-    .contact-content-1{
+
+    .contact-content-1 {
         grid-row: 2;
     }
 
@@ -288,7 +290,8 @@
     /* ------------Services-Section---------- */
     .services-content {
         padding: 0 2rem;
-        gap: 1rem;
+        gap: 3rem;
+        margin-top: 3rem;
     }
 
     /* --------Portfolio-Section------ */
