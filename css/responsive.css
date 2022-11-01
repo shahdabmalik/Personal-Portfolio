@@ -103,6 +103,9 @@
     html {
         font-size: 50%;
     }
+    .logo{
+        width: 6rem;
+    }
 
     h2.active::after {
         width: 60%;
@@ -208,6 +211,9 @@
     .header.sticky .menu-btn {
         top: 1.8rem;
 
+    }
+    .header.sticky .dark-mode{
+        top: 2.2rem;
     }
 
     .header {
