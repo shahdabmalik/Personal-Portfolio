@@ -21,6 +21,22 @@ navbarli.forEach(li => {
     })
 })
 
+// ---------------Dark-Mode-----------------------
+let darkBtn = document.querySelector('.dark-mode i');
+
+darkBtn.addEventListener('click', ()=>{
+    if(darkBtn.classList.contains('fa-moon')){
+        darkBtn.classList.replace('fa-moon', 'fa-sun');
+        document.body.classList.add('active');
+    }
+    else{
+        darkBtn.classList.replace('fa-sun', 'fa-moon');
+        document.body.classList.remove('active');
+        
+    }
+})
+// ---------------Dark-Mode-End-------------------
+
 
 
 // --------------Nav-Link-Active-State-on-Scroll-------------
