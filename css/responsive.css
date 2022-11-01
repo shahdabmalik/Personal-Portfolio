@@ -41,7 +41,7 @@
 
     /* --------Header--------- */
     .logo {
-        width: 12rem;
+        width: 7rem;
     }
 
     .navbar-ul {
@@ -188,12 +188,21 @@
     }
 
     /* ------------Heaer------------ */
-    .menu-btn {
+    .menu-btn, .dark-mode {
         display: block;
         position: absolute;
         top: 2.5rem;
         right: 6%;
         transition: 300ms linear;
+    }
+    .dark-mode{
+        right: 15%;
+        top: 3rem;
+        
+    }
+    .dark-mode i{
+        font-size: 2.5rem;
+        
     }
 
     .header.sticky .menu-btn {
@@ -275,6 +284,11 @@
     h1 {
         text-align: center;
         font-size: 5rem;
+    }
+    .dark-mode{
+        right: 18%;
+        top: 3rem;
+        
     }
 
     /* ------------Hero-Section--------- */
