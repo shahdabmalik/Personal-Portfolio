@@ -501,6 +501,7 @@ body.active{
     font-weight: 600;
     padding: 5rem 0 0rem;
     text-transform: uppercase;
+    text-align: center;
     color: var(--heading);
 }
 .service:hover h3{

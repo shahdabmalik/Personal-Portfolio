@@ -20,19 +20,23 @@ navbarli.forEach(li => {
         menuBtnIcon.classList.remove('fa-xmark')
     })
 })
+document.querySelector('main').addEventListener('click', () => {
+    navbarUl.classList.remove('active')
+    menuBtnIcon.classList.remove('fa-xmark')
+})
 
 // ---------------Dark-Mode-----------------------
 let darkBtn = document.querySelector('.dark-mode i');
 
-darkBtn.addEventListener('click', ()=>{
-    if(darkBtn.classList.contains('fa-moon')){
+darkBtn.addEventListener('click', () => {
+    if (darkBtn.classList.contains('fa-moon')) {
         darkBtn.classList.replace('fa-moon', 'fa-sun');
         document.body.classList.add('active');
     }
-    else{
+    else {
         darkBtn.classList.replace('fa-sun', 'fa-moon');
         document.body.classList.remove('active');
-        
+
     }
 })
 // ---------------Dark-Mode-End-------------------
