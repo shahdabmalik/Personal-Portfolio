@@ -41,7 +41,7 @@
 
     /* --------Header--------- */
     .logo {
-        width: 7rem;
+        width: 5rem;
     }
 
     .navbar-ul {
@@ -104,7 +104,7 @@
         font-size: 50%;
     }
     .logo{
-        width: 6rem;
+        width: 5rem;
     }
 
     h2.active::after {
@@ -190,17 +190,23 @@
         padding: 8rem 6% 2rem;
     }
 
+    /* --------Lottie--------- */
+    .lottie{
+        width: 400px;
+        height: 400px;
+    }
+
     /* ------------Heaer------------ */
     .menu-btn, .dark-mode {
         display: block;
         position: absolute;
-        top: 2.5rem;
+        top: 1.8rem;
         right: 6%;
         transition: 300ms linear;
     }
     .dark-mode{
         right: 15%;
-        top: 3rem;
+        top: 2.3rem;
         
     }
     .dark-mode i{
@@ -211,9 +217,6 @@
     .header.sticky .menu-btn {
         top: 1.8rem;
 
-    }
-    .header.sticky .dark-mode{
-        top: 2.2rem;
     }
 
     .header {
@@ -292,10 +295,15 @@
         font-size: 5rem;
     }
     .dark-mode{
-        right: 18%;
-        top: 3rem;
+        right: 17%;
+        top: 2.3rem;
         
     }
+        /* --------Lottie--------- */
+        .lottie{
+            width: 340px;
+            height: 340px;
+        }
 
     /* ------------Hero-Section--------- */
     .hero-icons {
@@ -306,6 +314,8 @@
         justify-content: center;
     }
 
+    /* -------------About-Section------- */
+    
 
     /* ------------Services-Section---------- */
     .services-content {
