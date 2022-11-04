@@ -164,7 +164,7 @@ body.active{
 }
 
 .header.sticky {
-    box-shadow: 0 4px 8px 0 #1365df59;
+    box-shadow: 0 4px 8px 0 #1365df23;
 }
 
 
@@ -473,8 +473,7 @@ body.active{
 
 .service:hover {
     transform: translateY(-1rem);
-    box-shadow: 0 2rem 3rem var(--light);
-    background-color: var(--light-2);
+    background-color: #47b5ff33;
     border-bottom: 3px solid var(--light-2);
 }
 
@@ -504,7 +503,7 @@ body.active{
     }
 }
 .service:hover i{
-    color: var(--bg);
+    color: var(--black);
 }
 
 .service h3 {
@@ -516,7 +515,7 @@ body.active{
     color: var(--heading);
 }
 .service:hover h3{
-    color: var(--bg);
+    color: var(--black);
 }
 
 .service p {
@@ -524,7 +523,7 @@ body.active{
     font-size: 1.5rem;
 }
 .service:hover p{
-    color: var(--bg);
+    color: var(--black);
 }
 
 /*--------------Services-Section-Ends----------------- */
