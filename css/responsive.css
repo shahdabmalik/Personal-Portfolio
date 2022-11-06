@@ -28,6 +28,29 @@
     html {
         font-size: 62.5%;
     }
+
+    section {
+        padding: 8rem 8% 2rem;
+    }
+
+    #about {
+        padding: 8rem 8% 0;
+    }
+
+    #portfolio {
+        padding: 8rem 8% 0;
+
+    }
+
+    .footer-container {
+        padding: 0 8%;
+
+    }
+
+    .nav-wrapper {
+        padding: 0 8%;
+
+    }
 }
 
 
@@ -54,12 +77,24 @@
     }
 
     .hero-container {
-        gap: 7rem;
-        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .word-3 {
+        text-align: center;
     }
 
     .hero-content-1 {
         align-items: center;
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+        height: 40px;
+    }
+
+    .words span {
+        padding: 6px 0;
     }
 
     /* -------About-Section--------- */
@@ -70,6 +105,10 @@
 
     .about-content-1 {
         grid-row: 2;
+    }
+
+    .bar {
+        width: 100%;
     }
 
     /* --------Services-Section------- */
@@ -90,13 +129,28 @@
     .contact-container {
         grid-template-columns: 1fr;
     }
+    form {
+        padding: 3rem 0 0;
+    }
 
     .contact-content-1 {
         grid-row: 2;
         width: 100%;
     }
+    .contact-content-2{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact-icons{
+        margin: 0;
+    }
+    /* --------Footer-------- */
+    .footer-container{
+        padding: 0 6%;
+    }
+
     /* -----------Lottie------------ */
-    .lottie{
+    .lottie {
         margin: 0 auto;
     }
 
@@ -108,12 +162,31 @@
     html {
         font-size: 50%;
     }
-    .logo{
+
+    .logo {
         width: 5rem;
     }
 
     h2.active::after {
         width: 60%;
+    }
+
+    section {
+        padding: 8rem 6% 2rem;
+    }
+
+    #about {
+        padding: 8rem 6% 0;
+    }
+
+    #portfolio {
+        padding: 8rem 6% 0;
+
+    }
+
+    .nav-wrapper {
+        padding: 0 6%;
+
     }
 
     /* --------Hero_Section-------- */
@@ -160,9 +233,7 @@
         gap: 5rem;
     }
 
-    form {
-        padding: 3rem 0 0;
-    }
+ 
 
     .contact-content-1 {
         grid-row: 2;
@@ -196,37 +267,47 @@
     }
 
     /* --------Lottie--------- */
-    .lottie{
+    .lottie {
         width: 400px;
         height: 400px;
     }
 
-    /* ------------Heaer------------ */
-    .menu-btn, .dark-mode {
+    /* ------------Header------------ */
+    .menu-btn,
+    .dark-mode {
         display: block;
         position: absolute;
         top: 1.8rem;
         right: 6%;
         transition: 300ms linear;
     }
-    .dark-mode{
+
+    .dark-mode {
         right: 15%;
         top: 2.3rem;
-        
     }
-    .dark-mode i{
+
+    .dark-mode i {
         font-size: 2.5rem;
-        
+
     }
 
     .header.sticky .menu-btn {
-        top: 1.8rem;
+        top: 1.4rem;
 
     }
 
+    .header.sticky .dark-mode {
+        top: 1.9rem;
+    }
+
     .header {
-        display: block;
         overflow: hidden;
+    }
+
+    .nav-wrapper {
+        display: block;
+
     }
 
     .navbar-ul {
@@ -259,6 +340,14 @@
     }
 
     /* --------Hero-Section---------- */
+    .hero-title {
+        font-size: 3.5rem;
+        height: 40px;
+    }
+
+    .words span {
+        padding: 5px 0;
+    }
 
 
     /* --------Services-Section---------- */
@@ -299,16 +388,18 @@
         text-align: center;
         font-size: 5rem;
     }
-    .dark-mode{
+
+    .dark-mode {
         right: 17%;
         top: 2.3rem;
-        
+
     }
-        /* --------Lottie--------- */
-        .lottie{
-            width: 320px;
-            height: 320px;
-        }
+
+    /* --------Lottie--------- */
+    .lottie {
+        width: 320px;
+        height: 320px;
+    }
 
     /* ------------Hero-Section--------- */
     .hero-icons {
@@ -320,7 +411,7 @@
     }
 
     /* -------------About-Section------- */
-    
+
 
     /* ------------Services-Section---------- */
     .services-content {
@@ -344,10 +435,18 @@
     .contact-icons i {
         font-size: 2rem;
     }
+    .contact-content-2{
+        width: 100%;
+    }
 
     /* -----------Footer-Section----------- */
+    #footer {
+        padding: 4rem 6% 2rem;
+    }
+
     .footer-container {
         flex-direction: column;
+        padding: 0;
     }
 
     .links-services {
@@ -356,5 +455,6 @@
 
     .footer-sub-content {
         margin-top: 2rem;
+        text-align: start;
     }
 }
