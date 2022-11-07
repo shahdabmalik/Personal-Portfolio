@@ -608,7 +608,7 @@ body.active {
     gap: 5rem;
     padding: 1rem 12% 3rem;
 }
-.p-container:hover img{
+.p-container:hover .p-img img{
     transform: scale(1.3);
     transition: 300ms linear;
 }
@@ -620,8 +620,12 @@ body.active {
 
 .p-img {
     overflow: hidden;
-    width: 75%;
     border-radius: 10px;
+    flex-basis: 40%;
+}
+.p-content{
+    flex-basis: 60%;
+
 }
 
 .p-container img {
