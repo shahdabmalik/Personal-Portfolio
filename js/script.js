@@ -103,16 +103,16 @@ document.addEventListener('scroll', statsupdate)
 
 // ----------------Portfolio-Swiper-Slider-----------------
 var swiper = new Swiper(".portfolio-slider", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 30,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-    breakpoints: {
-        0: { slidesPerView: 1 },
-        1100: { slidesPerView: 2 }
-    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,

@@ -18,6 +18,7 @@ html {
 body {
     background-color: var(--bg);
     overflow-x: hidden;
+    transition: 400ms linear;
 }
 
 
@@ -91,16 +92,22 @@ section {
 
 .btn {
     border: none;
-    transition: all 200ms linear;
     display: inline-block;
-    background-color: transparent;
 }
 
 .btn a {
     font-size: 1.8rem;
+    background-color: var(--light);
     color: var(--bg);
-    background-image: var(--light-gradient);
     padding: 1rem 2rem;
+    border-radius: 6px;
+    transition: all 200ms linear;
+}
+
+.btn a:hover {
+    background-color: var(--light-2);
+    color: var(--black);
+    transition: all 200ms linear;
 }
 
 .btn:hover {
@@ -594,42 +601,50 @@ body.active {
     padding: 8rem 0 4rem;
 }
 
+.p-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 1rem 12% 3rem;
+}
+.p-container:hover img{
+    transform: scale(1.3);
+    transition: 300ms linear;
+}
+
+.p-container:hover .p-img{
+    box-shadow: 0 0 25px 0 #47b5ff8b;
+    transition: 200ms linear;
+}
+
+.p-img {
+    overflow: hidden;
+    width: 75%;
+    border-radius: 10px;
+}
 
 .p-container img {
     width: 100%;
-    box-shadow: 0 .8rem 2rem #31e0f76b;
+    transition: 300ms linear;
 }
 
-.p-content {
-    border-top-right-radius: .8rem;
-    border-top-left-radius: .8rem;
-    background-image: var(--light-gradient);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 13%;
-    padding: 0 2rem;
-    border-bottom: 2px solid var(--bg);
-}
 
-.p-content h3 {
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--bg);
-}
-
-.p-content a {
-    font-size: 2rem;
-    padding: 0 .5rem;
-    color: var(--black-2);
-    transition: 200ms linear;
-    color: var(--bg);
-}
-
-.p-content a:hover {
+.p-container h3 {
     color: var(--heading);
-    transform: rotate(360deg);
+    font-size: 2.5rem;
+    font-weight: 600;
 }
+
+.p-container p {
+    padding: .5rem 0;
+}
+
+.p-container .btn {
+    margin-top: 2rem;
+}
+
+
 
 /* ----------------Portfolio-Section-Endss-------------- */
 
@@ -723,12 +738,8 @@ body.active {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    /* padding: 5rem 0 0; */
 }
 
-/* .contact-content-1 img {
-    width: 100%;
-} */
 .contact-content-1 {
     margin-left: auto;
 }
@@ -769,10 +780,17 @@ textarea {
 .form-submit-btn {
     font-size: 1.8rem;
     color: var(--bg);
-    background-image: var(--light-gradient);
+    background-color: var(--light);
     padding: 1rem 2rem;
     cursor: pointer;
     width: 100%;
+    border-radius: 6px;
+}
+
+.form-submit-btn:hover {
+    background-color: var(--light-2);
+    color: var(--black);
+    box-shadow: none;
 }
 
 .contact-icons {
@@ -794,13 +812,15 @@ textarea {
     padding: .8rem 0;
     text-align: center;
     color: var(--bg);
-    background-image: var(--light-gradient);
     transition: 300ms linear;
+    background-color: var(--light);
+    border-radius: 6px;
 
 }
 
 .contact-icons a:hover {
-    box-shadow: 0 1rem 2rem #1365dfa4;
+    background-color: var(--light-2);
+    color: var(--black);
 }
 
 .contact-icons i {
