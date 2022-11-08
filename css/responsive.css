@@ -91,6 +91,7 @@
 
     .hero-container {
         flex-direction: column;
+        gap: 8rem;
     }
 
     .word-3 {
@@ -134,16 +135,18 @@
         padding: 8rem 8% 2rem;
     }
 
- .p-container{
-    flex-direction: column;
-    gap: 3rem;
- }
- .p-img{
-    width: 90%;
- }
- .p-content{
-    width: 90%;
- }
+    .p-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .p-img {
+        width: 90%;
+    }
+
+    .p-content {
+        width: 90%;
+    }
 
 
     /* --------Contact-Section--------- */
@@ -215,10 +218,6 @@
     }
 
     /* --------Hero_Section-------- */
-    .hero-container {
-        grid-template-columns: 1fr;
-        gap: 8rem;
-    }
 
     .hero-content-1 {
         align-items: center;
@@ -289,6 +288,10 @@
 
     section {
         padding: 8rem 6% 2rem;
+    }
+
+    .btn a {
+        padding: 7px 14px;
     }
 
     /* --------Lottie--------- */
@@ -386,7 +389,19 @@
     }
 
     /* --------Portfolio-Content----- */
-    .p-container{
+    #portfolio {
+        padding: 8rem 0 0;
+    }
+
+    #portfolio h2 {
+        margin: 0 6% 6rem;
+    }
+
+    #portfolio p {
+        padding: 0 6%;
+    }
+
+    .p-container {
         padding: 1rem 6% 3rem;
         gap: 3rem;
     }
@@ -395,6 +410,9 @@
     /* --------Freelancing-Section----------- */
     #freelancing {
         padding: 5rem 0%;
+    }
+    .freelancing-heading{
+        font-size: 4rem;
     }
 
 }
@@ -438,24 +456,35 @@
     }
 
     /* --------Portfolio-Section------ */
-    .p-container{
+    .p-container {
         padding: 1rem 0 3rem;
     }
-    .p-img{
+
+    .p-img {
         width: 85%;
     }
-    .p-content{
+
+    .p-content {
         width: 85%;
     }
-    .p-next{
+
+    .p-next {
         right: -7px;
     }
-    .p-prev{
+
+    .p-prev {
         left: -7px;
     }
-    .p-next::after, .p-prev::after{
-        font-size:3rem;
+
+    .p-next::after,
+    .p-prev::after {
+        font-size: 3rem;
     }
+        /* --------Freelancing-Section----------- */
+
+        .freelancing-heading{
+            font-size: 2.5rem;
+        }
 
 
     /* -------Contact-Section------- */

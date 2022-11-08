@@ -105,6 +105,7 @@ document.addEventListener('scroll', statsupdate)
 var swiper = new Swiper(".portfolio-slider", {
     slidesPerView: 1,
     spaceBetween: 30,
+    loop: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -113,10 +114,10 @@ var swiper = new Swiper(".portfolio-slider", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // }
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    }
 });
 
 
