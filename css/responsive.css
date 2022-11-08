@@ -469,11 +469,11 @@
     }
 
     .p-next {
-        right: -7px;
+        right: 0;
     }
 
     .p-prev {
-        left: -7px;
+        left: 0;
     }
 
     .p-next::after,
