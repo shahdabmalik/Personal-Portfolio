@@ -397,7 +397,7 @@
         margin: 0 6% 6rem;
     }
 
-    #portfolio p {
+    .portfolio-para, .portfolio-para-2 {
         padding: 0 6%;
     }
 
@@ -411,7 +411,8 @@
     #freelancing {
         padding: 5rem 0%;
     }
-    .freelancing-heading{
+
+    .freelancing-heading {
         font-size: 4rem;
     }
 
@@ -457,7 +458,7 @@
 
     /* --------Portfolio-Section------ */
     .p-container {
-        padding: 1rem 0 3rem;
+        padding: 1rem 3rem 3rem;
     }
 
     .p-img {
@@ -469,22 +470,23 @@
     }
 
     .p-next {
-        right: 0;
+        right: 5px;
     }
 
     .p-prev {
-        left: 0;
+        left: 5px;
     }
 
     .p-next::after,
     .p-prev::after {
         font-size: 3rem;
     }
-        /* --------Freelancing-Section----------- */
 
-        .freelancing-heading{
-            font-size: 2.5rem;
-        }
+    /* --------Freelancing-Section----------- */
+
+    .freelancing-heading {
+        font-size: 2.5rem;
+    }
 
 
     /* -------Contact-Section------- */
