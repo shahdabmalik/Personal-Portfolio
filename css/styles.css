@@ -236,6 +236,7 @@ body.active {
 
 .dark-mode i {
     font-size: 1.8rem;
+    padding: 5px;
     cursor: pointer;
     color: var(--black);
 }
@@ -254,8 +255,9 @@ body.active {
 
 .hero-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
+    gap: 5rem;
 }
 
 .hero-content-1 {
@@ -286,7 +288,7 @@ body.active {
     height: 100%;
     display: block;
     padding: 10px 0;
-    animation: spin 5s infinite;
+    animation: spin 6s infinite;
 }
 
 @keyframes spin {
@@ -294,23 +296,34 @@ body.active {
         transform: translateY(-112%);
     }
 
-    30% {
+    20% {
         transform: translateY(-100%);
     }
+    35%{
+        transform: translateY(-100%);
 
-    40% {
+    }
+
+    45% {
         transform: translateY(-212%);
     }
 
-    60% {
+    55% {
         transform: translateY(-200%);
     }
+    65%{
+        transform: translateY(-200%);
 
-    70% {
+    }
+
+    75% {
         transform: translateY(-312%);
     }
 
-    100% {
+    85% {
+        transform: translateY(-300%);
+    }
+    100%{
         transform: translateY(-300%);
     }
 }
@@ -440,7 +453,7 @@ body.active {
 }
 
 .bar-html.active {
-    width: 80%;
+    width: 90%;
 }
 
 /* -----------------CSS-Bar-------------- */
@@ -451,7 +464,7 @@ body.active {
 }
 
 .bar-css.active {
-    width: 75%;
+    width: 80%;
 }
 
 /* -----------------bootStrap-Bar-------------- */
@@ -461,7 +474,7 @@ body.active {
 }
 
 .bar-bootstrap.active {
-    width: 65%;
+    width: 75%;
 }
 
 /* -----------------Javascript-Bar-------------- */
@@ -472,7 +485,7 @@ body.active {
 }
 
 .bar-javascript.active {
-    width: 60%;
+    width: 70%;
 }
 
 /* -----------------Wordpress-Bar-------------- */
@@ -483,13 +496,13 @@ body.active {
 }
 
 .bar-wordpress.active {
-    width: 65%;
+    width: 70%;
 }
 
 
 /* ---------Download-Button-------- */
 .cv-btn {
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .cv-btn i {
@@ -528,44 +541,16 @@ body.active {
 }
 
 .service i {
-    font-size: 10rem;
+    font-size: 12rem;
     color: var(--light);
     padding: 2rem 4rem;
-    animation: service-animation 5s infinite;
     overflow: hidden;
-    border: 2px solid var(--light-2);
 }
 
 .service:hover {
     transform: translateY(-1rem);
     background-color: #47b5ff33;
     border-bottom: 3px solid var(--light-2);
-}
-
-@keyframes service-animation {
-    0% {
-        border-radius: 63% 37% 58% 42% / 36% 56% 44% 64%;
-    }
-
-    20% {
-        border-radius: 30% 70% 58% 42% / 60% 30% 70% 40%;
-    }
-
-    40% {
-        border-radius: 26% 74% 31% 69% / 78% 65% 35% 22%;
-    }
-
-    60% {
-        border-radius: 27% 73% 74% 26% / 38% 31% 69% 62%;
-    }
-
-    80% {
-        border-radius: 46% 54% 75% 25% / 32% 43% 57% 68%;
-    }
-
-    100% {
-        border-radius: 63% 37% 58% 42% / 36% 56% 44% 64%;
-    }
 }
 
 .service:hover i {
@@ -575,7 +560,7 @@ body.active {
 .service h3 {
     font-size: 2rem;
     font-weight: 600;
-    padding: 5rem 0 0rem;
+    padding: 2rem 0 0rem;
     text-transform: uppercase;
     text-align: center;
     color: var(--heading);
@@ -664,12 +649,8 @@ body.active {
 
 .testimonial {
     padding: 2rem;
-    box-shadow: 0 0 1rem var(--light);
-    transition: 400ms linear;
-}
-
-.testimonial:hover {
-    box-shadow: 0 0 3rem var(--light);
+    border: 2px solid var(--light);
+    transition: 200ms linear;
 }
 
 .testimonial-text {
@@ -769,6 +750,7 @@ textarea {
     margin: 1rem 0;
     border: 1px solid var(--light-2);
     background-color: var(--form);
+    color: var(--black);
 
 }
 
