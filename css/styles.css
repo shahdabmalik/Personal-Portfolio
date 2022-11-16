@@ -93,6 +93,7 @@ section {
 .btn {
     border: none;
     display: inline-block;
+    transition: all 200ms linear;
 }
 
 .btn a {
@@ -107,15 +108,11 @@ section {
 .btn a:hover {
     background-color: var(--light-2);
     color: var(--black);
-    transition: all 200ms linear;
-}
-
-.btn:hover {
-    box-shadow: 0 1rem 2rem #1365dfa2;
 }
 
 .btn i {
     padding-left: .8rem;
+    transition: all 200ms linear;
 }
 
 ::selection {
@@ -296,27 +293,27 @@ body.active {
         transform: translateY(-112%);
     }
 
-    20% {
+    15% {
         transform: translateY(-100%);
     }
-    35%{
+    30%{
         transform: translateY(-100%);
 
     }
 
-    45% {
+    40% {
         transform: translateY(-212%);
     }
 
-    55% {
+    45% {
         transform: translateY(-200%);
     }
-    65%{
+    70%{
         transform: translateY(-200%);
 
     }
 
-    75% {
+    80% {
         transform: translateY(-312%);
     }
 
@@ -449,7 +446,7 @@ body.active {
 /* -----------------HTML-Bar-------------- */
 .bar-html {
     width: 0;
-    transition: 2s linear;
+    transition: 3s linear;
 }
 
 .bar-html.active {
@@ -470,7 +467,7 @@ body.active {
 /* -----------------bootStrap-Bar-------------- */
 .bar-bootstrap {
     width: 0;
-    transition: 4s ease-in-out;
+    transition: 3s ease-in-out;
 }
 
 .bar-bootstrap.active {
@@ -491,7 +488,7 @@ body.active {
 /* -----------------Wordpress-Bar-------------- */
 .bar-wordpress {
     width: 0;
-    transition: 4s ease;
+    transition: 3s linear;
 
 }
 
@@ -533,11 +530,11 @@ body.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: 400ms ease;
     border-bottom: 3px solid var(--light);
     border-bottom-left-radius: 1rem;
+    transition: 400ms ease;
     border-bottom-right-radius: 1rem;
-
+    
 }
 
 .service i {
@@ -545,6 +542,7 @@ body.active {
     color: var(--light);
     padding: 2rem 4rem;
     overflow: hidden;
+    transition: 400ms ease;
 }
 
 .service:hover {
@@ -563,7 +561,8 @@ body.active {
     padding: 2rem 0 0rem;
     text-transform: uppercase;
     text-align: center;
-    color: var(--heading);
+    color: var(--light);
+    transition: 400ms ease;
 }
 
 .service:hover h3 {

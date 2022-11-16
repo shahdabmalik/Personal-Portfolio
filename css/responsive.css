@@ -525,3 +525,12 @@
         text-align: start;
     }
 }
+
+/* -----------------------Max-Width:380px-------------------------- */
+@media (max-width:380px){
+    /* --------Hero-Section------------ */
+    .hero-title {
+        font-size: 3.0rem;
+        height: 40px;
+    }
+}
