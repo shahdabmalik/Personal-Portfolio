@@ -187,9 +187,6 @@
 /* ------------------------Max-Width:840px---------------------- */
 
 @media (max-width:840px) {
-    html {
-        font-size: 50%;
-    }
 
     .logo {
         width: 5rem;
@@ -288,10 +285,6 @@
 
     section {
         padding: 8rem 6% 2rem;
-    }
-
-    .btn a {
-        padding: 7px 14px;
     }
 
     /* --------Lottie--------- */
@@ -451,7 +444,7 @@
 
     /* ------------Services-Section---------- */
     .services-content {
-        padding: 0 2rem;
+        padding: 0;
         gap: 3rem;
         margin-top: 3rem;
     }

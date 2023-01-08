@@ -94,6 +94,7 @@ section {
     border: none;
     display: inline-block;
     transition: all 200ms linear;
+    background-color: transparent;
 }
 
 .btn a {
@@ -101,7 +102,7 @@ section {
     background-color: var(--light);
     color: var(--bg);
     padding: 10px 20px;
-    border-radius: 6px;
+    border-radius: 4px;
     transition: all 200ms linear;
 }
 
@@ -128,9 +129,9 @@ section {
     --para: #484848;
     --para-light: #c6c4c4;
     --light: #1363DF;
-    --light-2: #47B5FF;
+    --light-2: #47b5ffac;
     --light-3: #a0f7f9;
-    --form: #47b5ff3d;
+    --form: #47b5ff1c;
     --footer: #e0e0e0;
     --box-shadaow: 0 1rem 1rem #00000038;
     --light-gradient: linear-gradient(to left, #1363DF, #47B5FF);
@@ -145,7 +146,7 @@ body.active {
     --black-2: #f5f5f5;
     --para: #f2f2f2;
     --light-2: #1363DF;
-    --light: #47B5FF;
+    --light: #47b5ff;
 
     transition: 400ms linear;
 }
@@ -519,7 +520,7 @@ body.active {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 7rem 0 0;
-    gap: 8rem;
+    gap: 5rem;
 }
 
 
@@ -530,10 +531,11 @@ body.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid var(--light);
     border-bottom-left-radius: 1rem;
     transition: 400ms ease;
     border-bottom-right-radius: 1rem;
+    background-color: var(--form);
+    border-radius: 8px;
     
 }
 
@@ -546,8 +548,7 @@ body.active {
 }
 
 .service:hover {
-    transform: translateY(-1rem);
-    background-color: #47b5ff33;
+    background-color: #47b5ff5b;
     border-bottom: 3px solid var(--light-2);
 }
 
@@ -611,14 +612,16 @@ body.active {
     border-radius: 10px;
     flex-basis: 40%;
 }
+
 .p-content{
     flex-basis: 60%;
-
+    
 }
 
 .p-container img {
     width: 100%;
-    transition: 300ms linear;
+    height: 100%;
+    transition: 200ms linear;
 }
 
 
@@ -770,10 +773,10 @@ textarea {
     font-size: 1.8rem;
     color: var(--bg);
     background-color: var(--light);
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     cursor: pointer;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .form-submit-btn:hover {
@@ -798,12 +801,12 @@ textarea {
     width: 50%;
     font-size: 1.4rem;
     font-weight: 500;
-    padding: .8rem 0;
+    padding: 10px 20px;
     text-align: center;
     color: var(--bg);
     transition: 300ms linear;
     background-color: var(--light);
-    border-radius: 6px;
+    border-radius: 4px;
 
 }
 
